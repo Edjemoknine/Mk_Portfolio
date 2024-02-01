@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.projetc_card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  transition: 0.5s linear;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #ccc;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 200, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  ) !important;
+}
+
+.projetc_card:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 200, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  ) !important;
+}

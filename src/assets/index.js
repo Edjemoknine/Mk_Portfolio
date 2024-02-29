@@ -10,7 +10,7 @@ import sass from "./sass.png";
 import prisma from "./prisma.png";
 import javaScript from "./javascript.png";
 import typescript from "./typescript.png";
-export { default as resume } from "./Resume.pdf";
+export { default as resume } from "./Moknine.pdf";
 
 export const skills = [
   { img: html, name: "HTML" },

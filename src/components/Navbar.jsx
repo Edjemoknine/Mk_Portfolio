@@ -109,10 +109,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </h3>
 
             <p className="leading-8 max-w-md mx-auto dark:text-gray-500 text-gray-800">
-              I am passoinate about building and designing exceptional digital
+              I am passionate about building and designing exceptional digital
               experiences excellent software that improves the lives of those
               around me. Currently ,I'm focused in creating responsive and
-              seemless webseite with a pretty good user experience.
+              seemless website with a pretty good user experience.
             </p>
             <button className="border-teal-500 border-2 text-teal-500 mt-6 cursor-pointer hover:text-white transition-all duration-300 hover:bg-teal-500 px-4 py-2 rounded-md">
               <Link smooth={true} duration={500} to="contact">

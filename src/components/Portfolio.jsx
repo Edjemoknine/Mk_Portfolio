@@ -45,7 +45,7 @@ const Portfolio = () => {
                     backgroundRepeat: "no-repeat",
                   }}
                 >
-                  <div className="absolute top-0 w-full h-full duration-300 -left-full group-hover:left-0 bg-slate-600/50"></div>
+                  {/* <div className="absolute top-0 w-full h-full duration-300 -left-full group-hover:left-0 bg-slate-600/50"></div> */}
                   <div className="absolute top-8 -right-10 duration-200 group-hover:right-10 flex-col text-center flex justify-center gap-2">
                     <div className="px-3 py-1.5 z-10 text-sm  rounded-md cursor-pointer hover:bg-teal-500 text-white bg-gray-500">
                       <a href={pro.github} target="_blank" rel="noreferrer">

@@ -36,7 +36,7 @@ export const projects = [
     img: cyborg,
     title: "Cyborg",
     desc: "Game platform providing the most popular games, the last release in defferent platforms and allows gamers to descover their games and bookmark in their lists",
-    link: "https://cyborg-61feb.web.app/",
+    link: "https://cyborg-games-store.vercel.app/",
     github: "https://github.com/Edjemoknine/CYBORG-Games-Store",
     tech: [
       { TName: "React", text: "text-blue-500" },
@@ -74,7 +74,7 @@ export const projects = [
     img: movico,
     title: "Movico",
     desc: "Web-based platform that allows users to search, bookmark,and watch trailers about latest movies and series. Discovering thiers detials and reviews.",
-    link: "https://netflixmv.netlify.app",
+    link: "https://movico4u.netlify.app/",
     github: "https://github.com/Edjemoknine/Movic",
     tech: [
       { TName: "Vite", text: "text-violet-500" },

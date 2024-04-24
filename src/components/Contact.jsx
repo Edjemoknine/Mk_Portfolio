@@ -10,10 +10,10 @@ const Contact = () => {
     >
       <div className=" max-w-[1000Px]   mx-auto w-full ">
         <motion.div
-          variants={fadeIn("up", 0.3)} // just update delay or direction
+          variants={fadeIn("up", 0.2)} // just update delay or direction
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: true, amount: 0.7 }}
+          viewport={{ once: true, amount: 0.5 }}
         >
           <div className="dark:text-white w-full text-4xl font-bold inline border-b-4 border-teal-500">
             Contact
@@ -23,10 +23,10 @@ const Contact = () => {
 
         <div className="grid pb-20 md:grid-cols-2 grid-cols-1 justify-center gap-8 ">
           <motion.div
-            variants={fadeIn("right", 0.3)} // just update delay or direction
+            variants={fadeIn("right", 0.2)} // just update delay or direction
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.5 }}
             className="flex flex-col items-center   gap-3"
           >
             <a
@@ -56,10 +56,10 @@ const Contact = () => {
             </a>
           </motion.div>
           <motion.div
-            variants={fadeIn("left", 0.3)} // just update delay or direction
+            variants={fadeIn("left", 0.2)} // just update delay or direction
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.5 }}
             className="w-full "
           >
             <form

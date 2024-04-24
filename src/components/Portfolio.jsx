@@ -11,10 +11,10 @@ const Portfolio = () => {
     >
       <div className=" max-w-[1000Px]  mx-auto w-full ">
         <motion.div
-          variants={fadeIn("up", 0.3)} // just update delay or direction
+          variants={fadeIn("up", 0.2)} // just update delay or direction
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: true, amount: 0.7 }}
+          viewport={{ once: true, amount: 0.5 }}
         >
           <div className="dark:text-white w-full text-4xl font-bold inline border-b-4 border-teal-500">
             Portfolio
@@ -29,7 +29,7 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {projects.map((pro, index) => (
             <motion.div
-              variants={fadeIn("up", 0.2 * index)} // just update delay or direction
+              variants={fadeIn("up", 0.05 * index)} // just update delay or direction
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0 }}

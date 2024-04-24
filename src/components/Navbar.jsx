@@ -56,7 +56,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           hidden: { y: "-100%" },
         }}
         animate={hidden ? "hidden" : "visible"}
-        transition={{ duartion: 0.35, ease: "easeInOut" }}
+        transition={{ duartion: 0.3, ease: "easeInOut" }}
         className={`${
           isScroll
             ? "shadow-xl  bg-white/20 drop-shadow-xl backdrop-blur-sm"
@@ -94,10 +94,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       >
         <div className="flex flex-col pt-10 md:gap-24  items-center md:flex-row  text-center md:text-left">
           <motion.div
-            variants={fadeIn("right", 0.3)} // just update delay or direction
+            variants={fadeIn("right", 0.2)} // just update delay or direction
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.5 }}
             className=""
           >
             <p className="dark:text-white">Hi, my name is </p>
@@ -121,10 +121,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </button>
           </motion.div>
           <motion.div
-            variants={fadeIn("left", 0.3)} // just update delay or direction
+            variants={fadeIn("left", 0.5)} // just update delay or direction
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.5 }}
             className="hidden lg:flex z-50  md:fixed md:left-0 md:flex-col md:top-0 md:bottom-0   text-4xl justify-center py-6 text-gray-600 "
           >
             <div className=" relative w-[180px] cursor-pointer bg-sky-500 p-2  ml-[-130px] hover:ml-0 duration-500 h-[50px] items-center flex justify-between text-gray-300">
@@ -160,10 +160,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </div>
           </motion.div>
           <motion.div
-            variants={fadeIn("up", 0.3)} // just update delay or direction
+            variants={fadeIn("up", 0.2)} // just update delay or direction
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.5 }}
             className=" md:hidden flex text-4xl justify-center py-6 text-gray-600 gap-10"
           >
             <AiOutlineTwitter className="cursor-pointer hover:text-teal-500" />
@@ -171,10 +171,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <AiOutlineGithub className="cursor-pointer hover:text-teal-500" />
           </motion.div>
           <motion.div
-            variants={fadeIn("left", 0.3)} // just update delay or direction
+            variants={fadeIn("left", 0.2)} // just update delay or direction
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.5 }}
             className="hidden md:flex  w-72 h-72 rounded-full bg-gradient-to-b from-teal-500 overflow-hidden mx-auto"
           >
             <img

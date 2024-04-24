@@ -10,7 +10,7 @@ const Main = () => {
               variants={fadeIn("down", 0.3)} // just update delay or direction
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.5 }}
               className="text-4xl dark:text-white font-bold inline border-b-4 border-teal-500"
             >
               About
@@ -19,19 +19,19 @@ const Main = () => {
         </div>
         <div className="max-w-[1000Px] mx-auto px-4 w-full grid md:grid-cols-2 gap-8">
           <motion.div
-            variants={fadeIn("right", 0.3)} // just update delay or direction
+            variants={fadeIn("right", 0.2)} // just update delay or direction
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.5 }}
             className="md:text-right dark:text-white leading-10 pb-8 pl-4 font-bold text-4xl"
           >
             Hi, I`m Moknine, nice to meet you , please take a look around.
           </motion.div>
           <motion.div
-            variants={fadeIn("left", 0.3)} // just update delay or direction
+            variants={fadeIn("left", 0.2)} // just update delay or direction
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.5 }}
             className="pl-4 dark:text-white"
           >
             <p>
